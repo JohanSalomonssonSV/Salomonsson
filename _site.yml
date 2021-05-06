@@ -5,9 +5,11 @@ navbar:
     - text: "Home"
       href: index.html
     - text: "Blog"
-      href: Journal.html
-    - text: "Links"
-      href: links.html
+      menu:
+      - text: "Blog"
+        href: Journal.html
+      - text: "Links"
+        href: links.html
 output_dir: "docs"
 output:  
   html_document:  
