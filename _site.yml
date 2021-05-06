@@ -1,6 +1,6 @@
-name: "JohanSalomonsson"
+name: "Johan Salomonsson"
 navbar:
-  title: "JohanSalomonsson"
+  title: "Johan Salomonsson"
   left:
     - text: "Home"
       href: index.html
@@ -12,4 +12,5 @@ output_dir: "docs"
 output:  
   html_document:  
     self_contained: no  
-    theme: flatly 
+    theme: flatly
+    css: style.css

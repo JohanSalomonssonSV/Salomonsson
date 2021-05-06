@@ -22,7 +22,16 @@ library(umgJSR)
 
 ```
 
+<style type="text/css">
+.title {
+  display: none;
+}
 
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
 
 # My first post
 
@@ -39,4 +48,22 @@ df %>% ggplot(aes(speed, dist)) + geom_point()+
 
 
 ```
+
+
+# My Second post
+
+### A randomly selected dataset (pkg datasets - cars)
+
+```{r, echo=FALSE}
+
+#df<-datasets::cars
+
+df %>% ggplot(aes(speed, dist)) + geom_point()+
+  geom_smooth()+
+  hrbrthemes::theme_tinyhand()+
+  labs(title = "Speed and Distance", subtitle = "Cars 1920'")
+
+
+```
+
 
