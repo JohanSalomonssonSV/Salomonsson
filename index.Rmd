@@ -33,9 +33,18 @@ This site is a part of me learning to create and publish  Rmarkdown projects to 
 </div>
 <div class="col-sm-6">
 
-### [Johan Salomonsson](https://JohanSalomonssonSV.github.io)
+<img src="images/bild6.png" alt="pp"  style="float:right;">
 
-<a href = "https://JohanSalomonssonSV.github.io">
-![](images/bild.jpg)
-</a>
 </div>
+
+```{r, eval=FALSE, include=FALSE}
+
+### [Johan Salomonsson](https://JohanSalomonssonSV.github.io)
+# <a href = "https://JohanSalomonssonSV.github.io">
+# ![](images/bild2.jpg)
+# </a>
+# </div>
+
+
+```
+
