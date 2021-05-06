@@ -1,0 +1,42 @@
+---
+title: "Posts"
+output:
+  html_document:
+    toc: true
+    toc_float: true
+    collapsed: false
+    number_sections: false
+    toc_depth: 1
+    #code_folding: hide
+editor_options: 
+  chunk_output_type: console
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(message=FALSE,warning=FALSE, cache=TRUE)
+
+library(tidyverse)
+library(umgJSR)
+
+
+
+```
+
+
+
+# My first post
+
+### A randomly selected dataset (pkg datasets - cars)
+
+```{r, echo=FALSE}
+
+df<-datasets::cars
+
+df %>% ggplot(aes(speed, dist)) + geom_point()+
+  geom_smooth()+
+  hrbrthemes::theme_tinyhand()+
+  labs(title = "Speed and Distance", subtitle = "Cars 1920'")
+
+
+```
+

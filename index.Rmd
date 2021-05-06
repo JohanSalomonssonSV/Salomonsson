@@ -1,56 +1,41 @@
 ---
-title: "index"
+title: "Johan Salomonsson"
 output: html_document
-editor_options: 
-  chunk_output_type: console
 ---
 
+<style type="text/css">
+.title {
+  display: none;
+}
+
+#getting-started img {
+  margin-right: 10px;
+}
+
+</style>
+
+<div class="row" style="padding-top: 30px;">
+<div class="col-sm-6">
+
+# **About**
+
+This site is a part of me learning to create and publish  Rmarkdown projects to github pages.
+
+## Some of my r projects
+
+1. Apply a flexdashboard to github.
+
+2. Write a r-package for picking stock.
+
+3. Build a page/blog to post parts of my projects
 
 
-```{r, include=FALSE}
+</div>
+<div class="col-sm-6">
 
-#subtitle: <h1>Amplify</h1>
+### [Johan Salomonsson](https://JohanSalomonssonSV.github.io)
 
-knitr::opts_chunk$set(echo = FALSE, warning = FALSE,  message=FALSE,  fig.height=4,
-                      fig.align = "center")
-# library(flexdashboard)
-# library(shiny)
-
-# "default", "cerulean", "journal", "flatly", "darkly", "readable", "spacelab", "united", "cosmo", "lumen", "paper", "sandstone", "simplex", "yeti"
-
-# library(bigrquery) # R Interface to Google BigQuery API  
-# library(dplyr) # Grammar for data manipulation  
-# library(DBI) # Interface definition to connect to databases 
-# library(ggplot2) # Data Viz package
-# 
-# library(dbplyr)
-# 
-library(tidyverse)
-# library(DT)
-# 
-# library(formattable)
-# 
-# library(lubridate)
-# library(crosstalk)
-# 
-# library(ggwordcloud)
-
-options(scipen = 999)
-theme_set(theme_light())
-```
-
-
-
-```{r}
-#tidyverse::loa
-
-#df<-datasets::s
-
-df<-datasets::airquality
-
-
-df %>% ggplot(aes(Ozone, Temp))+ geom_point()
-
-
-```
-
+<a href = "https://JohanSalomonssonSV.github.io">
+![](images/bild.jpg)
+</a>
+</div>
