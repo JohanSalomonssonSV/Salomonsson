@@ -41,19 +41,3 @@ This site is a part of me learning to create and publish Rmarkdown projects on g
 
 
 
-```{r, eval=FALSE, include=FALSE}
-
-#<img src="images/bild6.png" alt="pp"  style="position:absolute;bottom:0px;right:0px;">
-
-
-#<img src="images/bild6.png" alt="pp"  style="float:right;">
-
-### [Johan Salomonsson](https://JohanSalomonssonSV.github.io)
-# <a href = "https://JohanSalomonssonSV.github.io">
-# ![](images/bild2.jpg)
-# </a>
-# </div>
-
-
-```
-

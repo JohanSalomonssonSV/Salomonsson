@@ -7,7 +7,7 @@ navbar:
     - text: "Blog"
       menu:
       - text: "Blog"
-        href: Journal.html
+        href: Posts.html
       - text: "Links"
         href: links.html
 output_dir: "docs"
